@@ -34,6 +34,6 @@ if [ -f /.dockerenv ] ; then # Only run if inside of a Docker Container
 else
   ../appimagetool.AppImage . $([ ! -z "${container}" ] && echo '--appimage-extract-and-run')
 fi
-
+ls -l
 mv @SLIC3R_APP_KEY@-aarch64.AppImage ${APP_IMAGE}
 chmod +x ${APP_IMAGE}
