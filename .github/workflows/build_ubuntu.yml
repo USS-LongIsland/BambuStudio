@@ -46,7 +46,7 @@ jobs:
   appimage-builder-using-container:
     name: Linux AppImage Build Ubuntu 20.04 using container
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04-arm
 
     # free disk space ref: https://github.com/actions/runner-images/issues/2840#issuecomment-1540506686
     steps:
