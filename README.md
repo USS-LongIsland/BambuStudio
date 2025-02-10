@@ -5,16 +5,18 @@ This will build Bambu Studio Linux AARCH64 version.
 
 1.**Fork this repository**.
 
-2. **Run Build-All Workflow**:
+2.**Run Build-All Workflow**:
    - Navigate to the "Actions" tab in your GitHub repository.
    - Find the `build all` workflow in the list of workflows.
    - Click on the `build all` workflow, then click the "Run workflow" button to trigger the workflow.
-3. **Download Artifact Files**:
+   
+3.**Download Artifact Files**:
    - After the workflow completes, go to the "Actions" tab.
    - Find the completed `build all` workflow run.
    - Click on the workflow run to view details.
    - In the summary section of the workflow run, look for the "Artifacts" section.
    - Click on the artifact file (*.AppImage or BambuStudio-Linux-arm64.zip). For those who cannot run the AppImage, we have provided the extracted files packaged as a zip file.
+   
 Please note that you need to have the necessary permissions to run workflows in the repository.
 ---
 ![image](https://user-images.githubusercontent.com/106916061/179006347-497d24c0-9bd6-45b7-8c49-d5cc8ecfe5d7.png)
