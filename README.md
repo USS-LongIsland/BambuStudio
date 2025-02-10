@@ -2,7 +2,9 @@
 This repository is a personal fork for testing purposes only. No guarantees are made regarding the usability, reliability, or functionality of this repository. Any issues arising from the use of this repository are the sole responsibility of the user.
 # How-to
 This will build Bambu Studio Linux AARCH64 version.
+
 1.**Fork this repository**.
+
 2. **Run Build-All Workflow**:
    - Navigate to the "Actions" tab in your GitHub repository.
    - Find the `build all` workflow in the list of workflows.
