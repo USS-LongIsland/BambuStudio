@@ -1,3 +1,6 @@
+# Disclaimer
+This repository is a personal fork for testing purposes only. No guarantees are made regarding the usability, reliability, or functionality of this repository. Any issues arising from the use of this repository are the sole responsibility of the user.
+
 ![image](https://user-images.githubusercontent.com/106916061/179006347-497d24c0-9bd6-45b7-8c49-d5cc8ecfe5d7.png)
 # BambuStudio
 Bambu Studio is a cutting-edge, feature-rich slicing software.  
