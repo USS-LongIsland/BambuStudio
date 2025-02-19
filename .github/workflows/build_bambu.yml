@@ -240,6 +240,7 @@ jobs:
         shell: bash
         run: |
           ./BuildLinux.sh -isfr
+          apt install fuse2
           mv -n ./build/BambuStudio_ubu64.AppImage ./build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage
           chmod +x ./build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage
           ./build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage --appimage-extract
