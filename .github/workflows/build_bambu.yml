@@ -245,6 +245,7 @@ jobs:
           chmod +x ./build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage
           ./build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage --appimage-extract
           zip -r BambuStudio-Linux-arm64.zip squashfs-root
+          pwd
 
       # - name: Build orca_custom_preset_tests
       #   if: github.ref == 'refs/heads/main' && inputs.os == 'ubuntu-20.04'
@@ -260,9 +261,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: BambuStudio_${{inputs.os}}_${{ env.ver }}
-          path: |
-              './BambuStudio-Linux-arm64.zip'
-              './build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage'
+          path: './build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage'
 
       # - name: Deploy Ubuntu release
       #   if: ${{ ! env.ACT && github.ref == 'refs/heads/main' && inputs.os == 'ubuntu-20.04' }}
